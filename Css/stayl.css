@@ -1,56 +1,106 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    outline: none;
-    scroll-behavior: smooth;
-    font-family: "Poppins", sans-serif;
-}
-:root {
-    --bg-color: #080808;
-    --second-bg-color: #131313;
-    --text-color: white;
-    --main-color: #00ffee;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-html{
-    font-size: 60%;
-    overflow: hidden;
+body {
+  background: #000;
+  color: #fff;
 }
-body{
-    background: var(--bg-color);
-    color: var(--text-color);
-}
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 4rem 12% 4rem;
-    background: rgba(0,0,0,0.3);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 5;
-}
-.logo{
-    font-size: 3rem;
-    color: var(--text-color);
-    font-weight: 800;
-    cursor: pointer;
-    transition: 0.3s erase;
-}
-.logo:hover{
-    transform: scale(1.1);
-}
-.logo span{
-    text-shadow: 0 0 25px var(--main-color);
-}
-.navbar a{
-    font-size: 1.8rem;
-    color: var(--text-color);
 
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+}
 
-    
+.logo span {
+  color: #00f7ff;
+}
+
+nav a {
+  color: #aaa;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav .active {
+  color: #00f7ff;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 10%;
+}
+
+.content {
+  max-width: 500px;
+}
+
+.content h1 {
+  font-size: 50px;
+}
+
+.content h1 span {
+  color: #00f7ff;
+}
+
+.content h3 {
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+.content p {
+  color: #aaa;
+  margin: 15px 0;
+}
+
+.socials a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #00f7ff;
+  border-radius: 50%;
+  color: #00f7ff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  background: #00f7ff;
+  color: #000;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 25px;
+  border: none;
+  background: #00f7ff;
+  color: #000;
+  margin-right: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 0 15px #00f7ff;
+}
+
+.btn.outline {
+  background: transparent;
+  color: #00f7ff;
+  border: 2px solid #00f7ff;
+}
+
+.image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 50px #00f7ff;
 }
