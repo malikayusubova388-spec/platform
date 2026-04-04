@@ -1,52 +1,60 @@
-<!D<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Amelia Morgan</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+
+    <link rel="stylesheet" href="Css/stayl.css">
+
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
+
 <body>
 
-<header>
-  <h2 class="logo">Amelia <span>Morgan</span></h2>
-  <nav>
-    <a href="#" class="active">Home</a>
-    <a href="#">Education</a>
-    <a href="#">Services</a>
-    <a href="#">Testimonials</a>
-    <a href="#">Contact</a>
-  </nav>
-</header>
+    <header class="header">
+        <a href="#home" class="logo">Yusubova<span>Malika</span></a>
 
-<section class="home">
-  <div class="content">
-    <h1>Hi, It's <span>Amelia</span></h1>
-    <h3 class="typing">I'm a <span id="text"></span></h3>
-    
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Magni quibusdam tempore iste veniam hic commodi autem quod 
-      odit id, exercitationem perferendis impedit earum nulla.
-    </p>
+        <i class='bx bx-menu' id="menu-icon"></i>
 
-    <div class="socials">
-      <a href="#">in</a>
-      <a href="#">gh</a>
-      <a href="#">ig</a>
-      <a href="#">tw</a>
-    </div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#services">Services</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Malika</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
 
-    <div class="buttons">
-      <button class="btn">Hire</button>
-      <button class="btn outline">Contact</button>
-    </div>
-  </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae numquam dolores dolorem adipisci recusandae, ex
+                nesciunt. Voluptatum voluptates quasi tempora hic facilis
+                veritatis consequuntur doloribus dolor provident, eligendi
+                nam? Modi?
+            </p>
 
-  <div class="image">
-    <img src="img/download (1).jpg" alt="profile">
-  </div>
-</section>
+            <div class="social-icons">
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+                <a href="#"><i class="bx bxl-github"></i></a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+            </div>
 
-<script src="script.js"></script>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
