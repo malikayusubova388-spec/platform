@@ -496,14 +496,17 @@ span {
 
 .services-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 2.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10rem;
 }
 
 .service-box {
     background-color: var(--main-color);
-    height: 300px;
+    height:300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
@@ -528,14 +531,14 @@ span {
 }
 
 .service-info h4 {
-    font-size: 3rem;
+    font-size: 1.6rem;
     font-weight: 800;
     line-height: 2;
 }
 
 .service-info p {
-    font-size: 1.6rem;
-    font-weight: 600;
+    font-size: 0.95rem;
+     font-weight: 600;
     max-height: 100px;
     line-height: 1.7;
     margin: auto;
